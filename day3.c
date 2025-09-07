@@ -1,24 +1,21 @@
 #include <stdio.h>
 
-int main(){
-int a;
-int b; 
-int c;
+int main() {
+    int a, b, c;
 
-printf("enter the value of the 1 number");
-scanf("%d\n", &a);
+    printf("Enter the value of the 1st number: ");
+    scanf("%d", &a);
 
-printf("enter the value of the 2 number");
-scanf("%d\n", &b);
+    printf("Enter the value of the 2nd number: ");
+    scanf("%d", &b);
 
-a = c;
-a = b;
-b = c;
+    // Swapping using temporary variable
+    c = a;
+    a = b;
+    b = c;
 
-printf("the new value of the 1 number is %d", a);
-printf("the new value of the 2 number is %d ", b);
-
-
+    printf("The new value of the 1st number is %d\n", a);
+    printf("The new value of the 2nd number is %d\n", b);
 
     return 0;
 }
