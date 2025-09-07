@@ -1,16 +1,15 @@
 #include <stdio.h>
 
-int main(){
+int main() {
     float cel;
     float fer;
     
-    printf("enter the value of the celcious ");
-    scanf("%f\n", &cel );
+    printf("Enter the value in Celsius: ");
+    scanf("%f", &cel);
     
-    fer = (cel*1.8)+32;
+    fer = (cel * 1.8) + 32;
 
-    printf("the value in the ferhanite is %f", &fer);
-
+    printf("The value in Fahrenheit is %f\n", fer);
 
 
     return 0;
