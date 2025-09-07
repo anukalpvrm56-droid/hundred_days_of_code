@@ -4,7 +4,7 @@ int main(){
     float cel;
     float fer;
     
-    printf("enter the value of the celcious ")
+    printf("enter the value of the celcious ");
     scanf("%f\n", &cel );
     
     fer = (cel*1.8)+32;
