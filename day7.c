@@ -14,4 +14,12 @@ int main() {
             ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
             printf("%c is a vowel.\n", ch);
         } else {
-            printf("%c is a consonant.\n", ch
+            printf("%c is a consonant.\n", ch);
+        }
+
+    } else {
+        printf("Invalid input! Please enter an alphabet.\n");
+    }
+
+    return 0;
+}
